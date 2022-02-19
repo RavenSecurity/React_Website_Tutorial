@@ -8,9 +8,9 @@ import './App.css';
 import SecurityIcon from '@material-ui/icons/Security';
 import EventNoteIcon from '@material-ui/icons/EventNote';
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
-import ImportExportIcon from '@material-ui/icons/ImportExport';
-import ComputerIcon from '@material-ui/icons/Computer';
-import HttpIcon from '@material-ui/icons/Http';
+import PeopleAltIcon from '@material-ui/icons/PeopleAlt';
+import DevicesIcon from '@material-ui/icons/Devices';
+import BrushIcon from '@material-ui/icons/Brush';
 
 const theme = createMuiTheme({
   palette: {
@@ -66,10 +66,10 @@ function App() {
         <NavBar/>
         <div className={classes.wrapper}>
           <Typography variant="h4" className={classes.bigSpace} color="primary">
-             At Rocket.io we are passionate about software
+             Rayane Kaddoury is passionate about software
           </Typography>
           <Typography variant="h5" className={classes.littleSpace} color="primary">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          With a background in art and a lifelong interest in tech, I'm training myself to become a programmer and UX/UI designer.I am passionate about leveraging my diverse backgrounds to decipher challenging problems and create delightful experiences. Being a diligent, hardworking and result oriented person, I always work towards achieving best outcomes on each project I lay my hands on.
           </Typography>
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
@@ -79,9 +79,9 @@ function App() {
         </div>
 
         <div className={`${classes.grid} ${classes.littleSpace}`}>
-          <Grid icon={<ImportExportIcon style={{fill: "#5EA780", height:"125", width:"125"}}/>} title="Modular" btnTitle="Show me More" />
-          <Grid icon={<ComputerIcon style={{fill: "#E69426", height:"125", width:"125"}}/>} title="Multi-Platform" btnTitle="Show me More" />
-          <Grid icon={<HttpIcon style={{fill: "#2EA09D", height:"125", width:"125"}}/>} title="Conneced" btnTitle="Show me More" />
+          <Grid icon={<PeopleAltIcon style={{fill: "#5EA780", height:"125", width:"125"}}/>} title="Scalable" btnTitle="Show me More" />
+          <Grid icon={<DevicesIcon style={{fill: "#E69426", height:"125", width:"125"}}/>} title="Multi-Platform" btnTitle="Show me More" />
+          <Grid icon={<BrushIcon style={{fill: "#2EA09D", height:"125", width:"125"}}/>} title="Creative" btnTitle="Show me More" />
         </div>
         <div className={classes.bigSpace}>
           <Footer/>
