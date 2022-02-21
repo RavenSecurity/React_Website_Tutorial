@@ -1,5 +1,5 @@
-import React from 'react'
-import {BottomNavigation, BottomNavigationAction} from '@material-ui/core';
+    import React from 'react'
+    import {BottomNavigation, BottomNavigationAction} from '@material-ui/core';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
@@ -17,3 +17,4 @@ function Footer() {
 }
 
 export default Footer
+    

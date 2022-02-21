@@ -7,7 +7,6 @@ import {makeStyles} from "@material-ui/core/styles";
 const styles = makeStyles({
     bar:{
         paddingTop: "1.15rem",
-        backgroundColor: "#fff",
         ['@media (max-width:780px)']: {
             flexDirection: "column"
         }
@@ -29,7 +28,7 @@ const styles = makeStyles({
         cursor: "pointer",
         flexGrow: 1,
         "&:hover": {
-            color: "#4f25c8"
+            color: "#9599E2"
         },
         ['@media (max-width:780px)']: {
             paddingBottom: "1rem"    }

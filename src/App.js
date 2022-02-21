@@ -15,7 +15,7 @@ import BrushIcon from '@material-ui/icons/Brush';
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main:"#2e1667",
+      main:"#000",
     },
     secondary: {
       main:"#c7d8ed",
@@ -66,7 +66,7 @@ function App() {
         <NavBar/>
         <div className={classes.wrapper}>
           <Typography variant="h4" className={classes.bigSpace} color="primary">
-             Rayane Kaddoury is passionate about software
+             Rayane Kaddoury is passionate about software !
           </Typography>
           <Typography variant="h5" className={classes.littleSpace} color="primary">
           With a background in art and a lifelong interest in tech, I'm training myself to become a programmer and UX/UI designer.I am passionate about leveraging my diverse backgrounds to decipher challenging problems and create delightful experiences. Being a diligent, hardworking and result oriented person, I always work towards achieving best outcomes on each project I lay my hands on.
